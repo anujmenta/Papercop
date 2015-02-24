@@ -3,7 +3,7 @@ The Question Paper portal of IIT Kharagpur
 
 Visit : www.papercop.in
 
-#How it all happened
+#How it all happened?
 
 Step 1 :
 - Dump all the papers from the library site. ( Simply mirror the site)
@@ -13,9 +13,9 @@ Step 1 :
 Step 2:
 - Make encoded data to be used to determine the subjects in a particular semester of particular department.
 - We used pickle files to store data.
-- Each pickle files contains a list of lists corresponding to every department.
+- Each pickle files contains a list of lists corresponding to every department. (Code not available)
 
-#How it works
+#How it works?
 - It processes the input ( Roll number) for all the requred fields i.e Department and Semester number.
 - Uses this information to load the corresponding pickle file.
 - Use the semester number to obtain the list of subjects in that semester.
